@@ -1,0 +1,19 @@
+@import "./utils/variables";
+@import "./base/normalize";
+@import "./base/font-family";
+@import "./utils/utilits";
+@import "./utils/placeholders";
+@import "./utils/mixin";
+
+
+// Component-Porfolio
+@import './component-porfolio/page-header';
+@import './component-porfolio/page-heder-nav';
+@import './component-porfolio/main';
+@import './component-porfolio/buttons';
+@import './component-porfolio/main-set';
+@import './component-porfolio/main-text';
+@import './component-porfolio/footer';
+@import './component-porfolio/footer-contacts';
+@import './component-porfolio/footer-join';
+@import './component-porfolio/footer-input';

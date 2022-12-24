@@ -1,0 +1,49 @@
+.cards {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    @extend %container;
+}
+.list-skills {
+    @extend %list;
+
+    &__item::before {
+        display: block;
+        content: "";
+        margin: 0 auto;
+        height: 120px;
+        width: 270px;
+      
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      
+        background-color: #f5f4fa;
+        border-radius: 4px;
+    }
+    &__item + &__item {
+        margin-left: 30px;
+    }
+    &__logo {
+        margin-top: 30px;
+        margin-bottom: 10px;
+
+        font-family: $font-roboto;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: $letter-spacing;
+
+        color: #212121;
+    }
+    &__text {
+        margin-top: 0;
+        margin-bottom: 0;
+      
+        font-family: $font-roboto;
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+      
+        color: #757575;
+    }
+}
