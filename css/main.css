@@ -465,7 +465,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/overley/hiro.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/./images/overley/hiro.jpg);
   background-color: #2f303a;
 }
 .overlay__title {
@@ -975,7 +975,7 @@ body {
   transition: transform 300ms;
 }
 .form .form__checkbox:checked:focus ~ .form__icon-checkbox {
-  background-image: url(..svg/images/icon/svg/jackdaw.svg);
+  background-image: url(/./images/icon/svg/jackdaw.svg);
   background-size: contain;
   background-position: center;
   background-origin: border-box;
