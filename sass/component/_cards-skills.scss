@@ -72,26 +72,11 @@
         color: #757575;
     }
 }
+ 
+$icon: "antenna" , "clock" ,"diagram" , "astronaut";
 
-// // $icon: "antenna", "clock", "diagram" ,"astronaut";
-
-// // @each $iconName in $icon {
-// //     .cardso-item-#{$iconName} {
-// //         background-image: url("../../images/icon/svg/#{$iconName}.svg");
-// //     }
-// // }
-
-// $icons:
-//   "antenna",
-//   "astrounaut",
-//   "clock",
-//   "diagram";
-
-// @each $name in $icons {
-//   .icon-#{$name} {
-//     background-image: url('../images/icon/svg/#{$name}.svg');
-//     content: ' ';
-//     display: inline-block;
-//   }
-// }
-
+@each $iconName in $icon {
+    .icon-#{$iconName} {
+        background-image: url(../images/icon/svg/#{$iconName}.svg);
+    }
+}

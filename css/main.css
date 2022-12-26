@@ -361,8 +361,14 @@ html {
 
 body {
   padding-top: 80px;
+  background-color: red;
 }
 
+@media (min-width: 800px) {
+  body {
+    background-color: teal;
+  }
+}
 .page-header {
   position: fixed;
   top: 0;
@@ -586,6 +592,22 @@ body {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.icon-antenna {
+  background-image: url(../images/icon/svg/antenna.svg);
+}
+
+.icon-clock {
+  background-image: url(../images/icon/svg/clock.svg);
+}
+
+.icon-diagram {
+  background-image: url(../images/icon/svg/diagram.svg);
+}
+
+.icon-astronaut {
+  background-image: url(../images/icon/svg/astronaut.svg);
 }
 
 .cards-addition {

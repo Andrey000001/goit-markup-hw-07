@@ -1,5 +1,12 @@
 body {
     padding-top: 80px;
+    background-color: red;
+}
+
+@media (min-width: 800px) {
+    body {
+        background-color: teal;
+    }
 }
 .page-header {
     position: fixed;
