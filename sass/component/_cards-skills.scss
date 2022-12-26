@@ -25,6 +25,27 @@
     &__item + &__item {
         margin-left: 30px;
     }
+    
+    &--antenna::before {
+        background-image: url(../../images/icon/svg/antenna.svg);
+        @extend %background-images;
+        background-size: 65.32px 70px;
+    }
+    &--clock::before {
+        background-image: url(../../images/icon/svg/clock.svg);
+        @extend %background-images;
+        background-size: 66.96px 70px;
+    }
+    &--diagram::before {
+        background-image: url(../../images/icon/svg/diagram.svg);
+        @extend %background-images;
+        background-size: 53.69px 70px;
+    }
+    &--astronaut::before {
+        background-image: url(../../images/icon/svg/astronaut.svg);
+        @extend %background-images;
+        background-size: 70px 70px;
+    }
 
     &__logo {
         margin-top: 30px;
@@ -52,12 +73,25 @@
     }
 }
 
-$icon: "antenna", "clock", "diagram" ,"astronaut";
+// // $icon: "antenna", "clock", "diagram" ,"astronaut";
 
-@each $iconName in $icon {
-    .cards-#{$iconName} {
-        background-image: url("../images/icon/svg/#{$iconName}.svg");
-    }
-}
+// // @each $iconName in $icon {
+// //     .cardso-item-#{$iconName} {
+// //         background-image: url("../../images/icon/svg/#{$iconName}.svg");
+// //     }
+// // }
 
+// $icons:
+//   "antenna",
+//   "astrounaut",
+//   "clock",
+//   "diagram";
+
+// @each $name in $icons {
+//   .icon-#{$name} {
+//     background-image: url('../images/icon/svg/#{$name}.svg');
+//     content: ' ';
+//     display: inline-block;
+//   }
+// }
 
